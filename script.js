@@ -68,3 +68,8 @@ document.getElementById('deleteButton').addEventListener('click', function () {
   document.getElementById('editButton').style.display = 'none';
   document.getElementById('deleteButton').style.display = 'none';
 });
+
+// Exibi os dados ao carregar a página
+window.onload = function() {
+  displayUserData(); // Exibe os dados salvos no Local Storage quando a página é carregada 
+};

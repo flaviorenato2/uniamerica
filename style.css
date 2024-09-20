@@ -20,6 +20,16 @@ body {
 }
 
 /* Estilo dos campos de entrada */
+/*input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}*/
+
+/* Novo Estilo dos campos de entrada */
 input[type="text"],
 input[type="date"] {
   width: 100%;
@@ -27,6 +37,7 @@ input[type="date"] {
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-sizing: border-box; /* Solução para a borda */
 }
 
 /* Estilo dos botões */
